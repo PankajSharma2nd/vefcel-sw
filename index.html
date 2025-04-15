@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vercel Navigation Tracking Experiment</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="manifest" href="manifest.json">
+</head>
+<body>
+    <div class="container">
+        <h1>Vercel Navigation Tracking Experiment</h1>
+        <p>This page will attempt to register a service worker that tracks navigation events.</p>
+        <div id="status">Service Worker Status: Checking...</div>
+        <div id="log">
+            <h2>Navigation Log</h2>
+            <pre id="navigation-log"></pre>
+        </div>
+        <div class="test-links">
+            <h2>Test Links</h2>
+            <p>Click these links to test navigation:</p>
+            <ul>
+                <li><a href="page2.html">Navigate to Page 2 (same origin)</a></li>
+                <li><a href="https://f1gma-delta.vercel.app" target="_blank">Another Vercel App</a></li>
+                <li><a href="https://vercel.com" target="_blank">Vercel.com</a></li>
+            </ul>
+        </div>
+        <button id="request-permission">Request Notification Permission</button>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
