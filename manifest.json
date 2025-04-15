@@ -1,0 +1,8 @@
+{
+    "name": "Vercel Navigation Tracking Experiment",
+    "short_name": "VercelTracker",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#0070f3"
+}
